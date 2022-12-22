@@ -1,11 +1,10 @@
-<html><head></head><body>
 swagger: '2.0'
 info:
   version: 1.0.0
   title: Html injection
-  description: '
-
-
+  description: '<!DOCTYPE html>
+<html>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -113,25 +112,23 @@ span.price {
   }
 }
 </style>
+</head>
+<body>
 
-
-
-<h2>Click these links!</h2>
+<h2>HTML Injection</h2>
   <div class="col-25">
     <div class="container">
       <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
-      <p><a href="https://coinmarketcap.com">First link</a> <span class="price">$115</span></p>
-      <p><a href="https://www.google.com">Second link</a> <span class="price">$50</span></p>
-      <p><a href="https://hack.com">Third link</a> <span class="price">$80</span></p>
-      <p><a href="https://binance.com">Product 4</a> <span class="price">$20</span></p>
+      <p><a href="https://www.google.com">Just Google link 1</a> <span class="price">$15</span></p>
+      <p><a href="https://www.google.com">Just Google link 2</a> <span class="price">$5</span></p>
       <hr>
       <p>Total <span class="price" style="color:black"><b>$300</b></span></p>
     </div>
   </div>
+</div>
 
-
-
-
+</body>
+</html>
 '
 paths:
   /:
@@ -139,4 +136,3 @@ paths:
       responses:
         '200':
           description: Echo GET
-</body></html>
