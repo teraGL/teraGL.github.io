@@ -1,1 +1,1 @@
-localStorage.getItem('redot-auth:default');
+alert(localStorage.getItem('redot-auth:default'));
