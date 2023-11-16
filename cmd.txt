@@ -1,5 +1,3 @@
 <?php
-$x = exec('hostname');
-$y = system('hostname', $retval);
-echo '1: $x and 2: $y';
+print exec('hostname');
 ?>
